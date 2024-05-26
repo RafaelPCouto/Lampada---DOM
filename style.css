@@ -6,7 +6,7 @@ body {
 
 }
 
-img {
+.logo {
     width: 100px;
 }
 
@@ -25,6 +25,14 @@ img {
     border-radius: 20px;
     width: 50%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__button {
+    display: flex;
+    
 }
 
 .button {
@@ -35,4 +43,5 @@ img {
     width: 150px;
     height: 30px;
     border-radius: 10px;
+    margin: 0 10px;
 }
