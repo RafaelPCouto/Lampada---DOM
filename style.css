@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(48, 48, 48);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+img {
+    width: 100px;
+}
+
+
+.header {
+    color: rgb(239, 238, 228);
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+}
+
+.section {
+    background-color: rgb(239, 238, 228);
+    color: #000;
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+.button {
+    background-color: rgb(12, 112, 242);
+    color: rgb(239, 238, 228);
+    cursor: pointer;
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
